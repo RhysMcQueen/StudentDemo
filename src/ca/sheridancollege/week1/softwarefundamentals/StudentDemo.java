@@ -3,6 +3,20 @@ package ca.sheridancollege.week1.softwarefundamentals;
 
 public class StudentDemo 
 {
+
+    /**
+     * @return the program
+     */
+    public String getProgram() {
+        return program;
+    }
+
+    /**
+     * @param program the program to set
+     */
+    public void setProgram(String program) {
+        this.program = program;
+    }
   private String studentID;
   private String name;
   private String program;
